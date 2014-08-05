@@ -1,0 +1,1 @@
+Isoc3::Application.config.secret_key_base = 'e8ff3202f4e371afed2ae110578279edfdbf9b28f90eeb5218f43427794435768884f5aaa02bc43447a27831a39ba449b5a411eed540cdf1ac72a6adfda34af5'
