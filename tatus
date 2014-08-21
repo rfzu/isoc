@@ -1,0 +1,71 @@
+[33mcommit 9c411a9c6d206150f809b2a4b387d36f03dbc4a1[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 21:36:22 2014 +0400
+
+    sing in / sing out
+
+[33mcommit e6b8ac1c9b18a97204997a914cced9372f76152f[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 20:24:59 2014 +0400
+
+    Add SSL in production
+
+[33mcommit 7848874a72ee2c1228eed85703b2063f54a40b67[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 20:23:43 2014 +0400
+
+    Finish user signup
+
+[33mcommit ebfe530b7e9572d94e421cc18fbe4a8cd9085f57[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 19:59:39 2014 +0400
+
+    Make a basic User model (including secure passwords)
+
+[33mcommit 2d1a2934a970179a5297dd86e8c395d41af18b8e[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 19:20:23 2014 +0400
+
+    upgrade show all list
+
+[33mcommit 6a760a195dfce69fb601be5dc6492179fcdc029e[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 19:13:18 2014 +0400
+
+    make post link
+
+[33mcommit 6eaf9461f30ee706dd11bc3039d0f364753c0065[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 19:08:43 2014 +0400
+
+    simple posts functionality
+
+[33mcommit 6931aff91d2aef1d7a79b8c5cd8a51f3d162da3b[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 18:39:42 2014 +0400
+
+    index page
+
+[33mcommit a0a9894172d7e07a1362282d2955a07a2899eb2b[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 18:28:56 2014 +0400
+
+    removing from production.rb dump_schema_blablalba 2
+
+[33mcommit c050be3a487d423afc682002d5ac6ff72c405f6d[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 18:18:15 2014 +0400
+
+    Add precompiled assets for Heroku
+
+[33mcommit 7f1d1e71cb6b18f66cf6186a08febc85f7a5b5d3[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 18:14:53 2014 +0400
+
+    Finish demo app
+
+[33mcommit ac696ec87b2abf2ba2b7b607574240666db820d8[m
+Author: rfzu <rall@list.ru>
+Date:   Tue Aug 5 17:56:54 2014 +0400
+
+    Initial commit
