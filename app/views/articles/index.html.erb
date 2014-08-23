@@ -15,7 +15,7 @@
     <td><b> <%= link_to article.title.mb_chars.titleize, article_path(article) %></b></td>
     <td> <%= article.text %> </td>
     <td> <%= article.created_at.getlocal.strftime("%m/%d/%Y %H:%M") %></td>
-    <td> <%= article.user.name if article.user %> </td>
+    <td> <%= if article.user then article.user.name else 'Anonymous' end %> </td>
   </tr>
   <% end %>
 </table>
