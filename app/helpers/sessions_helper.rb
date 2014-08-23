@@ -21,10 +21,12 @@ module SessionsHelper
   end
 
   def sign_out
+    if signed_in?
     current_user.update_attribute(:remember_token,
                                   User.encrypt(User.new_remember_token))
     cookies.delete(:remember_token)
     self.current_user = nil
+  end
   end
 
   def current_user?(user)
