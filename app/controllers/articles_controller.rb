@@ -6,7 +6,11 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    @article = current_user.articles.build(article_params)
+    if signed_in?
+      @article = current_user.articles.build(article_params)
+    else
+      @article = Article.new(article_params)
+    end
    
     @article.save
     redirect_to @article
