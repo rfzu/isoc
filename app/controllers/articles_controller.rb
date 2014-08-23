@@ -1,10 +1,12 @@
 class ArticlesController < ApplicationController
 
+  #before_action :signed_in_user
+
   def new
   end
 
   def create
-    @article = Article.new(article_params)
+    @article = current_user.articles.build(article_params)
    
     @article.save
     redirect_to @article

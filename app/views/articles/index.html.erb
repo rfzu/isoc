@@ -7,6 +7,7 @@
     <th>Title</th>
     <th>Text</th>
     <th>Created at</th>
+    <th>user id</th>
     </tr>
 
     <% @articles.reverse.each do |article| %>
@@ -14,6 +15,7 @@
     <td><b> <%= link_to article.title.mb_chars.titleize, article_path(article) %></b></td>
     <td> <%= article.text %> </td>
     <td> <%= article.created_at.getlocal.strftime("%m/%d/%Y %H:%M") %></td>
+    <td> <%= article.user_id %> </td>
   </tr>
   <% end %>
 </table>
